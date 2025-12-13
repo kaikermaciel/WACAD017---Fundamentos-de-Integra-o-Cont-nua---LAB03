@@ -201,7 +201,4 @@ const config: Config = {
 export default config{
   preset: 'ts-jest',
   testEnvironment: 'node',
-  collectCoverage: true,
-  coverageDirectory: "coverage",
-  coverageProvider: "v8",
 }
