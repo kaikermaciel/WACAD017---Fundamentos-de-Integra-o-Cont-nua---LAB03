@@ -198,7 +198,10 @@ const config: Config = {
   // watchman: true,
 };
 
-export default {
+export default config{
   preset: 'ts-jest',
   testEnvironment: 'node',
+  collectCoverage: true,
+  coverageDirectory: "coverage",
+  coverageProvider: "v8",
 }
