@@ -21,7 +21,7 @@ jobs:
         with:
           context: ./
           push: true
-          dockerfile: ../../../lab03_docker/Dockerfile
+          dockerfile: Dockerfile
    # Specify the path to your Dockerfile
           tags: moisesgc/webacademy:latest
   deploy:
