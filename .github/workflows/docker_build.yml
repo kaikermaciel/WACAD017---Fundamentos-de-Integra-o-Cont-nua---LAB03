@@ -23,7 +23,7 @@ jobs:
           file: ./lab03_docker/Dockerfile
           
           push: true
-          tags: kaikermaciel/WACAD017---Fundamentos-de-Integra-o-Cont-nua---LAB03:latest
+          tags: moisesgc/webacademy:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
