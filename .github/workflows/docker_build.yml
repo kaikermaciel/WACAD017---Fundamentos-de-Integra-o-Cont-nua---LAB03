@@ -23,7 +23,7 @@ jobs:
           file: ./lab03_docker/Dockerfile
           
           push: true
-          tags: moisesgc/webacademy:latest
+          tags: kaikermaciel/webacademy:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
